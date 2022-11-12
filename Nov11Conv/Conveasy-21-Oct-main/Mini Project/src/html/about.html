@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+        }
+
+        html {
+            box-sizing: border-box;
+        }
+
+        *,
+        *:before,
+        *:after {
+            box-sizing: inherit;
+        }
+
+        .column {
+            float: left;
+            width: 33.3%;
+            margin-bottom: 16px;
+            padding: 0 8px;
+        }
+
+        .card {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            margin: 8px;
+        }
+
+        .about-section {
+            padding: 50px;
+            text-align: center;
+            background-color: #474e5d;
+            color: white;
+        }
+
+        .container {
+            padding: 0 16px;
+        }
+
+        .container::after,
+        .row::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+
+        .title {
+            color: grey;
+        }
+
+        .button {
+            border: none;
+            outline: 0;
+            display: inline-block;
+            padding: 8px;
+            color: white;
+            background-color: #000;
+            text-align: center;
+            cursor: pointer;
+            width: 100%;
+        }
+
+        .button:hover {
+            background-color: #555;
+        }
+
+        @media screen and (max-width: 650px) {
+            .column {
+                width: 100%;
+                display: block;
+            }
+        }
+
+        .cards {
+
+            transition: all 0.2s ease;
+            cursor: pointer;
+
+
+        }
+
+
+
+        .cards:hover {
+
+            box-shadow: 5px 6px 6px 2px #000f1e;
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>Conveasy | Time Convertor</title>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta name="robots" content="noindex, nofollow">
+    <meta name="googlebot" content="noindex, nofollow">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css">
+    <script
+        src="/js/stringify.js?9c307ec363c36b1d0dfbf2ee64220ccsudo gdebi GitHubDesktop-linux-2.9.3-linux3.deb5ab9c45f2"
+        charset="utf-8"></script>
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <title>Document</title>
+</head>
+<body>  
+    <header>
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top navbar-custom">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="logo-no-background.png" width="auto" height="40"
+                class="d-inline-block align-top" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+              aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+              <ul class="navbar-nav me-auto mb-2 mb-md-0 ml-auto">
+                <li class="nav-item">
+                  <a class="nav-link active" style="color:#FFD369;font-size: larger" aria-current="page"
+                    href="#"><strong>Home</strong></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" style="color:#FFD369; font-size: larger" href="time1.html"><strong>Time Convertor</strong></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" style="color:#FFD369; font-size: larger" href="curr.html"><strong>Currency Convertor</strong></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </header>
+
+
+    <div class="about-section" style="margin-top: 50px;">
+        <h1>About Us Page</h1>
+        <p>Some text about who we are and what we do.</p>
+        <p>Resize the browser window to see that this page is responsive by the way.</p>
+    </div>
+
+    <h2 style="text-align:center">Our Team</h2>
+    <div class="row">
+        <div class="column">
+            <div class="card cards">
+                <img src="../img/krishna.jpg" alt="Krishna" style="width:100%">
+                <div class="container">
+                    <h2>Krishna Rudani</h2>
+                    <p class="title"><strong>Member</strong></p>
+                    <p>Every team needs an implementation and execution expert. Krishna is the one who looks after it.</p>
+                    <p><strong>E-mail: </strong>krishna.rudani@somaiya.edu</p>
+                    <p><button class="button">Contact</button></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="card cards">
+                <img src="../img/parth.jpg" alt="PP" style="width:100%">
+                <div class="container">
+                    <h2>Parth Pulkundwar</h2>
+                    <p class="title"><strong>Member</strong></p>
+                    <p>A team also needs someone who gets things done on time. Parth is the one who keeps us on track.</p>
+                    <p><strong>E-mail: </strong>p.pulkundwar@somaiya.edu</p>
+                    <p><button class="button">Contact</button></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="card cards">
+                <img src="../img/omkar.jpg" alt="Omkar" style="width:100%">
+                <div class="container">
+                    <h2>Omkar Rane</h2>
+                    <p class="title"><strong>Member</strong></p>
+                    <p>You can't expect a project to be successful without enough brainstorming. Omkar brings this to the table. </p>
+                    <p><strong>E-mail: </strong>omkar.vr@somaiya.edu</p>
+                    <p><button class="button">Contact</button></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

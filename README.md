@@ -28,4 +28,4 @@ To run the project locally, clone the repository and open `index.html` in your b
 git clone https://github.com/pulkundwar29/Conveasy
 cd Conveasy
 ```
-In src/html, open the `index.html` file. This is the landing page of the application.
+In `src/html`, open the `index.html` file. This is the landing page of the application.

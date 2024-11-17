@@ -1,0 +1,18 @@
+.heading{
+    text-align: center;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    vertical-align: middle;
+}
+
+.main-body{
+    border-radius: 10%;
+}
+
+.time-img{
+    size: 20%;
+    width: 40%;
+    margin: auto;
+    display: flex;
+}

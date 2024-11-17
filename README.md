@@ -1,7 +1,5 @@
 # Conveasy
 
-**Last Updated:** November 15, 2022
-
 Conveasy is a web application providing two essential utilities: Time Conversion and Currency Conversion. This project was developed as part of our coursework in Semester III of Computer Engineering at Mumbai University.
 
 ## Features
